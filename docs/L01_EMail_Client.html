@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lesson 01: E-Mail Client</title>
+</head>
+<body>
+
+	<nav> 
+		<h2>Navigation</h2> 
+		<ul> 
+			<li>
+				<a>Home</a>
+			</li> 
+			<li>
+				<a>Contact</a>
+			</li> 
+		</ul>
+	</nav>
+    <pre>
+   This is a short E-Mail Form for the course webec. It's purpose is to send emails via <b>HTML</b> only, so it has to open your local email client.
+    </pre>
+    <form method="GET" action="mailto:samuel.keller@students.fhnw.ch" enctype="text/plain">
+    	<div>Subject</div>
+    		<input type="text" name="subject" />
+
+    		<div>Message</div>
+			<textarea name="email-body"></textarea>
+			<br/>
+    		<input type="submit" value="Send" />
+	</form>
+</body>
+</html>
