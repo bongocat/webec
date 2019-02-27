@@ -1,8 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Storybook for the Web Engineering Module</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+        section {
+            color: blue;
+        }
+        #context {
+            color: green;
+        }
+        #context {
+            color: yellow;
+        }
+        abbr, dfn {
+            background: papayawhip;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -22,23 +39,100 @@
             <h2>Overview</h2>
             <table>
                 <caption>Delivery dates</caption>
-                <thead>       <tr><th> Date   </th><th>  # </th><th>Topic</th></tr></thead>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>#</th>
+                        <th>Topic</th>
+                    </tr>
+                </thead>
                 <tbody>
-
-                <!-- fill from /storybook.txt here -->
-
+                    <tr>
+                        <td>Mi, 20.02.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 27.02.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 06.03.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Grails, Web, MVC,</td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 13.03.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>GSP, Template, Taglib, Layout</td>
+                    </tr>
+                    <tr>
+                        <td> Mi, 20.03.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Consolidation training, Testing</td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 27.03.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Persistence, DB-Access (GORM)</td>
+                    </tr>
+                    <tr>
+                        <td> Mi, 03.04.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>REST, Services</td>
+                    </tr>
+                    <tr>
+                        <td> Mi, 10.04.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Role-based Security</td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 17.04.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Übungsvorbereitung <b>Anwesenheitspflicht</b> </td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 15.05.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Übungsanlass</td>
+                    </tr>
+                    <tr>
+                        <td> Mi, 22.05.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Javascript, <b>Übungsabgabe</b></td>
+                    </tr>
+                    <tr>
+                        <td> Mi, 29.05.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Responsive / Mobile Web</td>
+                    </tr>
+                    <tr>
+                        <td>Mi, 05.06.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Deployment</td>
+                    </tr>
+                    <tr>
+                        <td> Mi, 12.06.19</td>
+                        <td>08:15 - 11:00</td>
+                        <td>Prüfungsvorbereitung</td>
+                    </tr>
                 </tbody>
-                <tfoot><tr><td colspan="3"> MSP date to be announced</td> </tr></tfoot>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"> MSP date to be announced</td>
+                    </tr>
+                </tfoot>
             </table>
         </article>
         <article>
-            <h2> Total Effort</h2>
-            <p> Classroom lectures add up to <code>15 * 3h = 45h</code>.</p>
-            <p> Prework and afterwork, including homework adds up to <code>15 * 1h = 15h</code>.</p>
-            <p> The exercise for the continuous assessment grade takes <code>4 * 5h = 20h</code>.</p>
-            <p> Preparation for the final exam will take approximately <code>8h</code>.</p>
-            <p> Writing the final exam takes <code>2h</code>.</p>
-            <p> This makes a total of <code>90h</code>.</p>
+            <h2>Total Effort</h2>
+            <p>Classroom lectures add up to <code>15 * 3h = 45h</code>.</p>
+            <p>Prework and afterwork, including homework adds up to <code>15 * 1h = 15h</code>.</p>
+            <p>The exercise for the continuous assessment grade takes <code>4 * 5h = 20h</code>.</p>
+            <p>Preparation for the final exam will take approximately <code>8h</code>.</p>
+            <p>Writing the final exam takes <code>2h</code>.</p>
+            <p>This makes a total of <code>90h</code>.</p>
         </article>
         <article id="criteria">
             <h2> Passing criteria </h2>
